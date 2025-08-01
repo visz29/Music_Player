@@ -1,12 +1,9 @@
 import React, { useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { LucidePlay, Play, SkipForward, PauseIcon } from "lucide-react"
-import { testImage } from '../assets'
 import { Slider } from './ui/slider.jsx';
 import { playerContext } from '../context/PlayerContext.jsx';
 import apt from '../assets/apt.mp3'
-import axios from 'axios';
 import { blobToBase64 } from './fetchAndSaveMP3.js';
-import intervel from '../../intervel.js';
 import music from '../assets/music.png'
 import { Music_symbole, SmallPinner } from '../assets/Svg.jsx';
 

@@ -1,4 +1,4 @@
-"use client"
+
 
 export default function Circle_Loader({ isVisible, message = "Loading..." }) {
   if (!isVisible) return null

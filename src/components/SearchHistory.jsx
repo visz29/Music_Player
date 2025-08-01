@@ -1,7 +1,7 @@
-import React from 'react'
+
 import { Home,Search, Bell, Users, Music2Icon, FileMusicIcon, DownloadCloudIcon, History, Play, Heart, ChevronRight, ChevronDown } from "lucide-react"
 import { Button } from "../components/Button.jsx"
-import BasicHeader from './BasicHeader.jsx'
+
 
 function SearchHistory() {
   return (

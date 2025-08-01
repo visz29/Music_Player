@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { SearchLogo } from '../assets/Svg.jsx'
 
 function Search(prop) {
     // console.log(prop);

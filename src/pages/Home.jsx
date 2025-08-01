@@ -1,9 +1,7 @@
 import { lazy, Suspense, useContext, useEffect, useRef, useState } from "react"
-import { Card, CardContent } from "../components/Card.jsx"
-import { Button } from "../components/Button.jsx"
 import '../style/home.css'
-// import MusicPlayer from "../components/music-player.jsx"
-const MusicPlayer = lazy(() => import('../components/music-player.jsx'))
+import MusicPlayer from "../components/music-player.jsx"
+// const MusicPlayer = lazy(() => import('../components/music-player.jsx'))
 import { Loader } from 'rsuite';
 
 import {
@@ -171,8 +169,6 @@ export default function HomePage() {
       {/* Music Player */}
       <div className="absolute bottomBox h-full flex justify-center bottom-0 w-full bg-green-500/0 pl-1 pr-1 pt-2 pb-20 pointer-events-none">
 
-        <Suspense fallback={<Loader/>}>
-
         <MusicPlayer 
           className="bottomNav sticky bottom-0 left-0 right-0 bg-black border-t border-gray-800"
         // title={title}
@@ -180,7 +176,9 @@ export default function HomePage() {
         // thumbnail={thumbnail}
         // song={song}
         />
-        </Suspense>
+        {/* <Suspense fallback={<Loader/>}>
+
+        </Suspense> */}
         <Navbar />
       </div>
 

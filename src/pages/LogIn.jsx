@@ -1,12 +1,10 @@
-"use client"
+
 
 import { useContext, useEffect, useState } from "react"
 import { ArrowLeft, Eye, EyeOff, User, Mail, Lock, Gift, Cloud } from "lucide-react"
 import { NavLink, useNavigate } from "react-router-dom"
-import axios from "axios"
+
 import { getUser, login } from "../utils/userAccount.js"
-import { useLocation } from 'react-router-dom';
-import { toast } from 'react-toastify';
 import { playerContext } from "../context/PlayerContext.jsx"
 import { saveUserData } from "../utils/saveLocalData.js"
 import Circle_Loader from "../components/Circle_Loader.jsx"

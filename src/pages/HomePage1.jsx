@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from 'react'
+
 import { Card, CardContent } from "../components/Card.jsx"
-import { Button } from "../components/Button.jsx"
+
 import '../style/homePage.css'
 import {
   Menu,

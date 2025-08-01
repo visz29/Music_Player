@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useContext, useEffect, useState } from "react"
 import { ArrowLeft, User, Mail, Lock, Gift, Camera, Edit3, Settings, LogOut } from "lucide-react"

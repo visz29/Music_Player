@@ -1,5 +1,5 @@
 import { forwardRef, useEffect, useState, useRef, useCallback, useMemo } from "react"
-import { cn } from "../../lib/utils.js"
+
 import '../../style/slider.css'
 
 const Slider = ( {curTime,dur,fun}) => {

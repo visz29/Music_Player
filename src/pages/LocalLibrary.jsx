@@ -2,12 +2,10 @@ import React, { useContext, useEffect, useState } from 'react';
 import { saveSong, getAllSongs, deleteAllSongs, deleteSongsByFolder, deleteSongByName } from '../utils/db.js';
 import extractAlbumArt from '../utils/extractAlbumArt.js';
 import '../style/localLibrary.css'
-import music from '../assets/music.png'
+
 import { playerContext } from '../context/PlayerContext.jsx';
 import { parseBlob } from 'music-metadata-browser';
 import { AddFolder, DawnArrow, Folder } from '../assets/Svg.jsx';
-import HomePage from './Home.jsx';
-import Marquee from "react-fast-marquee";
 
 
 function LocalLibrary() {
