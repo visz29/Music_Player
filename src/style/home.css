@@ -1,0 +1,9 @@
+@media (width >= 2560px) { 
+    .home{
+        scale: 1.54;
+    }
+ }
+
+.bottomNav{
+     max-width: 450px;
+}

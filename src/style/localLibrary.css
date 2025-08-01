@@ -1,0 +1,23 @@
+.imgBox{
+    background-image: url("../assets/music.png");
+}
+
+
+
+.library::-webkit-scrollbar {
+  width: 0px;
+}.library
+
+.library::-webkit-scrollbar-thumb {
+  background-color: #00f2ff;
+  border-radius: 0px;
+}
+
+.importsong{
+    transition:  0.5s;
+}
+
+.songList{
+    transition:  0.5s;
+    
+}

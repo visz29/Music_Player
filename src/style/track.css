@@ -1,0 +1,20 @@
+/* .songsParent{
+} */
+
+
+.songsParent::-webkit-scrollbar {
+  width: 0px;
+}
+
+.songsParent::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.songsParent::-webkit-scrollbar-thumb {
+  background-color: #00f2ff;
+  border-radius: 0px;
+}
+
+.songsParent ::-webkit-scrollbar {
+width: 8px; /* width of the vertical scrollbar */
+}

@@ -1,0 +1,10 @@
+.homePage{
+        max-width: 450px;
+        height: 80vh;
+}
+
+.currentPlaying{
+    height: 70px;
+    overflow: hidden;
+    bottom: 0;
+}
