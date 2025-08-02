@@ -1,2 +1,2 @@
-cd E:\MY\Programing\Express\MyMusic_player1\MyMusic_player1FF2
+cd E:\MY\Programing\GitHub\my_project
 npm run dev -- --host
